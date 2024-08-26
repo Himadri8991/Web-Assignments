@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sister Nivedita University - Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            background-image: url('background.jpg');
+            background-size: cover;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 20px;
+            background-color: #333;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        section {
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        h2 {
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .gallery img {
+            width: 250px;
+            height: 180px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            transition: transform 0.2s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        .button, .virtual-tour-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 25px;
+            cursor: pointer;
+            border: none;
+            margin-top: 20px;
+        }
+        .button:hover, .virtual-tour-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>College Gallery</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="academics.html">Academics</a>
+    <a href="admission.html">Admission</a>
+    <a href="gallery.html">Gallery</a>
+</nav>
+
+<section>
+    <h2>Gallery</h2>
+    <div class="gallery">
+        <img src="photo1.jpg" alt="College Campus">
+        <img src="photo2.jpeg" alt="Students at Event">
+        <img src="photo3.jpg" alt="Event1">
+        <img src="photo4.jpg" alt="Laboratory">
+        <img src="photo.jpg" alt="Memories">
+        <img src="photo5.jpg" alt="Event2">
+    </div>
+    <a href="https://www.snuniv.ac.in/assets/virtual-tour/index.html" target="_blank" class="button">
+        Take a Virtual Tour
+    </a>
+</section>
+
+</body>
+</html>
