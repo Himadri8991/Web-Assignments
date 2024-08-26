@@ -13,3 +13,5 @@ college as heading along with the college logo. There should be a tab with the f
 
 # Please note that each web-page in this website should have the same background Image/color. 
 # The looks of each page should be similar.
+
+# [Check Here](https://himadri8991.github.io/College-Random-Website/)
